@@ -18,6 +18,12 @@ Use VisualStudio or any IDE to run the project. The app will listen to https://l
 - Get all bookings: https://localhost:7025/SettlementService/Booking/
 - Get booking by BookingId: https://localhost:7025/SettlementService/Booking/{bookingId}
 
+Here's an example body (raw json) to POST new booking:
+{
+ "bookingTime": "11:30",
+  "name":"Luna"
+}
+
 ### Prerequisites
 
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/download)
