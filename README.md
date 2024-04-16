@@ -31,4 +31,4 @@ Here's an example body (raw json) to POST new booking:
 
 ### Testing
 
-If you cannot run the auto test, try to add Project reference and run again.
+If you cannot run the auto test, try to add Project reference of SettlementServive to SettlementServiveTest, then run again.
