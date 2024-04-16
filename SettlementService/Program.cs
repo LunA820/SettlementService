@@ -3,6 +3,7 @@ using SettlementService.Services;
 using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.WebHost.UseUrls("https://localhost:7026");
 
 // Add services to the container.
 
