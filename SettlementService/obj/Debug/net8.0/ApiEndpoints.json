@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "SettlementService.Controllers.BookingController",
+    "Method": "Create",
+    "RelativePath": "SettlementService/Booking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "booking",
+        "Type": "SettlementService.Models.Booking",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SettlementService.Controllers.BookingController",
+    "Method": "GetBookings",
+    "RelativePath": "SettlementService/Booking",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SettlementService.Controllers.BookingController",
+    "Method": "GetBooking",
+    "RelativePath": "SettlementService/Booking/{bookingId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookingId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
